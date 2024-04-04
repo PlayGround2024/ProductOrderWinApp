@@ -19,7 +19,7 @@ jobs:
     - name: Setup .NET
       uses: actions/setup-dotnet@v4.0.0
       with:
-        dotnet-version: 8.x.x
+        dotnet-version: 4.x.x
         
     - name: Restore dependencies
       run: dotnet restore ProductOrderApp/ProductOrderApp.sln
