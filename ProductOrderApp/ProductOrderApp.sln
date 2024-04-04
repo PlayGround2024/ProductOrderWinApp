@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.34601.136
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34723.18
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductOrderApp", "ProductOrderApp.csproj", "{2321D302-C24B-46FD-8D55-FA51CD7B9857}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductOrder.Models", "..\ProductOrder.Models\ProductOrder.Models.csproj", "{AB14B49C-0398-4658-B7D8-239A1FD03FF0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{2321D302-C24B-46FD-8D55-FA51CD7B9857}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2321D302-C24B-46FD-8D55-FA51CD7B9857}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2321D302-C24B-46FD-8D55-FA51CD7B9857}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB14B49C-0398-4658-B7D8-239A1FD03FF0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB14B49C-0398-4658-B7D8-239A1FD03FF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB14B49C-0398-4658-B7D8-239A1FD03FF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB14B49C-0398-4658-B7D8-239A1FD03FF0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
