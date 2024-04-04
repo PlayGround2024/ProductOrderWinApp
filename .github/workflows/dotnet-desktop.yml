@@ -13,6 +13,7 @@ jobs:
     runs-on: windows-latest
 
     env:
+      working-directory: ProductOrderWinApp/ProductOrderApp
       Solution_Name: ProductOrderApp.sln  
 
     steps:
